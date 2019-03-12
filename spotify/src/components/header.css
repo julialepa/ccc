@@ -1,0 +1,12 @@
+#header{
+        background-color: rgb(51, 51, 51);
+        display: grid;
+        grid-template-columns: 49px 59px auto 55px 40px;
+        color: white;
+        font-family: unset;
+        padding: 12px 10px 12px 10px;
+}
+.title{
+        align-self: center;
+        font-size: 29px;
+}

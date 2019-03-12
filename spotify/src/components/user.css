@@ -1,0 +1,8 @@
+.info-container{
+    display: grid;
+    grid-template-columns: 15% 10%;
+    justify-content: center;
+}
+.profile-img{
+    height: 180px;
+}

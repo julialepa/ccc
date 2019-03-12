@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tabella</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <style>
+        table tbody tr td, table thead tr th {
+            border: 1px solid black;
+        }
+        table {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    
+
+</head>
+<body>
+    <table cellspacing="1">
+        <thead>
+            <tr>
+                <th>Mese</th>
+                <th>Entrate</th>
+                <th>Uscite</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gennio</td>
+                <td>1000,00</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Febbraio</td>
+                <td>4000,00</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Totale Uscite: €1884,00
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Totale Entrate: €5884,00
+                </td>
+            </tr>
+            <tr>
+                <td>Prova</td>
+                <td>Prova</td>
+                <td rowspan="3">Prova</td>
+            </tr>
+            <tr>
+                <td>Prova2</td>
+                <td>Prova2</td>
+            </tr>
+            <tr>
+                <td>Prova2</td>
+                <td>Prova2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

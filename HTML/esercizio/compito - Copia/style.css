@@ -1,0 +1,87 @@
+body {
+    background-color: #86c4d7;
+    margin: 0;
+    font: menu;
+}
+
+header, footer{
+    padding: 18px 150px 18px 200px;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    color: #646575;
+    display: flow-root;
+    letter-spacing: 2.3px;
+    font-variant: all-petite-caps;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    width: 81.7%;
+    bottom: 0;
+    position: absolute;
+}
+
+.box-right {
+    float: right;
+}
+
+.box-left {
+    float: left;
+}
+
+.box-right > ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+.box-right > ul > li {
+    margin: 0px 40px 0px 40px;
+}
+
+p {
+    padding: 30px;
+    margin: 0px 40px 0px 40px;
+    box-shadow: 0px 0px 43px -14px rgba(0,0,0,0.31);
+}
+
+.text-box {
+    background-color: #ffffff0f;
+}
+
+.empty-box {
+    padding: 86px;
+}
+
+
+a {
+    color: #646575;
+}
+
+.hover-box > a:hover {
+    background-color: #86c4d7;
+    color: white;
+    text-decoration: none;
+    padding: 18px 5px 18px 5px;
+    transition: 0.1s;
+}
+
+
+.no-decoration-text > a {
+    text-decoration: none;
+}
+
+.no-decoration-text > a:hover {
+    font-weight: 500;
+}
+
+.active{
+    font-size: 19px;
+}

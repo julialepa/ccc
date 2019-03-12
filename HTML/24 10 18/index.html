@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src=“https://code.jquery.com/jquery-3.3.1.slim.min.js“> </script> 
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <input type="text" name="name" placeholder="my text" />
+    <button onclick="setContent();">SHOW</button>
+    <div id="output"></div>
+    <script>
+        let inputNode = document.getElementsByTagName("input")[0];
+        let outputNode = document.querySelector("#output");
+        function setContent() {
+            let name = inputNode.value
+
+            switch (name) {
+                case "Arance":  //i due punti sta a dire fammi questo
+                    outputNode.innerHTML = "Le " + name + " costano €1.0 al chilo.";
+                    break;
+                case "Mele":
+                    outputNode.innerHTML = "Le " + name + " costano €0.64 al chilo.";
+                    break;
+                case "Banane":
+                    outputNode.innerHTML = "Le " + name + " costano €0.92 al chilo.";
+                    break;
+                case "Ciliege":
+                    outputNode.innerHTML = "Le " + name + " costano €2.59 al chilo.";
+                    break;
+                case "Meloni":
+                    outputNode.innerHTML = "I " + name + " costano €1.79 al chilo.";
+                    break;
+                default: document.write("Spiacenti, non abbiamo " + name + ".");
+
+            }
+
+        }
+  //outputNode.innerHTML= inputNode.value;
+
+  //stringa di testo che ho inserito nel campo input
+    </script>
+</body>
+
+</html>

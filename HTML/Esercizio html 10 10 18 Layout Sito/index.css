@@ -1,0 +1,118 @@
+/*Articolo.css*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.sub-title {
+    color: rgb(216, 216, 216);
+}
+
+.empty-solid-1{
+    border: 1px solid white;
+    padding: 2px;
+}
+
+.empty-solid-2{
+    border: 1px solid white;
+    padding: 35px;
+}
+
+.info-container{
+    padding: 25px;
+}
+
+.main-container {
+    padding: 0px 74px 0px 40px;
+}
+
+.data{
+    float: left;
+}
+
+.tags{
+    float: right;
+}
+
+/*Index.css*/
+.navbar {
+    background-color: gray;
+    height: 50px;
+    margin: 5px;
+    font-size: 35px;
+}
+
+.archive{
+    background-color: rgb(204, 168, 48);
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 5px;
+
+}
+
+.main-home{
+    background-color: rgb(212, 121, 17);
+    float: left;
+    width: 78.9%;
+    height: 100%;
+    margin: 5px;
+    color: white;
+
+}
+
+.main-navbar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.logo {
+    color: white;
+    margin-right: 30px;
+}
+
+.left-nav > a {
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.right-nav > span {
+    color: white;
+    font-size: 24px;
+
+}
+
+.archive-title {
+    width: 100%;
+    background-color:gray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.archive-content {
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.archive-content > div {
+    margin: 15px;
+}
+
+.active{
+    background-color: rgba(255, 255, 255, 0.267);
+}
